@@ -1,0 +1,155 @@
+:root{
+    --gray: rgb(202, 202, 209);
+    --navy: rgb(11, 11, 61);
+}
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gray);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://www.icapitalnetwork.com/wp-content/uploads/2020/09/header-sky-nucleus-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover{
+    color: var(--navy);
+}
+nav{
+    flex: 1;
+    text-align: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+
+}
+.header{
+    background-color: var(--navy);
+    padding: 20px 20px;
+    font-size: 25px;
+}
+nav ul li a{
+    color: var(--gray);
+}
+
+.hero-section{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtAfUT-3mf8lr7Vehfx3PKMWmCeUPeYs9ZcA&usqp=CAU");
+    height: 200px;
+    font-size: 35px;
+    color: var(--gray);
+}
+.hero-section p.h1{
+    text-align: right;
+    width: 100%;
+    }
+
+.column p{
+    margin-bottom: 15px;
+    text-align: left;
+    display: inline-block;
+    margin:-25px 14px 0 170px;
+    padding:50px;
+    font-size: 25px;
+    color: var(--gray);
+
+
+}
+.title, .title-2{
+    color: var(--gray);
+    font-size: 30px;
+    font-size: 45px;
+    text-align: center;
+    padding: 0 20px 28px 13px;
+    margin-top: 10px;
+    border-bottom: 4px solid var(--gray);
+    display: inline-block;
+
+}
+.me{
+    border-radius: 50%;
+    border: 2px solid var(--gray);
+    height: 200px;
+
+    float: right;
+    display: flex;
+    position: relative;
+    top:0px;
+    flex-direction: column;
+    align-items: left;
+
+}
+footer{
+    background-color: var(--navy);
+    color: var(--gray);
+    margin-top: 17px;
+    padding: 28px 20px;
+    font-size: 15px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reach-me{
+    color: var(--gray);
+    text-decoration: none;
+    word-spacing: 30px;
+    text-align: left;
+    margin: -43px 38px -39px 179px;
+    padding: 17px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.boxes{
+    text-align: center;
+    display: block;
+}
+.box-1,.box-2{
+    width: 400px;
+    height: 290px;
+    display:inline-block;
+}
+.box-1:hover, .box-2:hover{
+    cursor: pointer;
+    transition: transform .2s;
+    width: 500px;
+    height: 390px;
+}
+.run-buddy img, .horiseon-webpage img {
+    border: 5px solid var(--gray);
+}
+div .h2{
+    color: var(--gray);
+}
+
+@media all and (max-width:450px) {
+    .me{
+        height: 100px;
+    }
+    .hero-section{
+        height: 100px;
+        font-size: 15px;
+        display: block;
+    }
+    .column p{
+        text-align: left;
+        display: block;
+        font-size: 15px;
+        padding: 25px;
+        margin: 0px;
+    }
+    .reach-me{
+        font-size: 15px;
+        display: inline;
+    }    
+    nav ul li{
+        display: block;
+        text-align: center;
+        font-size: 15px;
+    }
+    .box-1, .box-2{
+        width: 300px;
+    }
+}
