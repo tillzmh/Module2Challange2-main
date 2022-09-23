@@ -106,18 +106,18 @@ footer{
     text-align: center;
     display: block;
 }
-.box-1,.box-2, .box-3{
+.box-1,.box-2, .box-3,.box-4{
     width: 400px;
     height: 290px;
     display:inline-block;
 }
-.box-1:hover, .box-2:hover, .box-3:hover{
+.box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover{
     cursor: pointer;
     transition: transform .2s;
     width: 500px;
     height: 390px;
 }
-.run-buddy img, .horiseon-webpage img, .Project-2 img {
+.run-buddy img, .horiseon-webpage img, .Project-2 img, .Project-3 img {
     border: 5px solid var(--gray);
 }
 div .h2{
